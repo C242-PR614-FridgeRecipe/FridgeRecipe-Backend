@@ -13,7 +13,7 @@
 ## FAVORITE RECIPE API 
 | ENDPOINTS | METHOD | ACTION |
 | :--------- | :--------- | :--------- |
-| /api/user/favorite/:id | GET | Get a list of favorite recipes for the user. |
+| /api/user/favorite | GET | Get a list of favorite recipes for the user. |
 | /api/user/favorite/:recipeId | GET | Get details of a specific favorite recipe. |
 | /api/user/favorite | POST | Add a recipe to the user's favorites. |
 | /api/user/favorite/:recipeId | DELETE | Remove a recipe from the user's favorites. |
