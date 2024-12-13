@@ -13,10 +13,10 @@
 ## FAVORITE RECIPE API 
 | ENDPOINTS | METHOD | ACTION |
 | :--------- | :--------- | :--------- |
-| GET    | /api/user/favorite | Get a list of favorite recipes for the user. |
-| GET    | /api/user/favorite/:recipeId | Get details of a specific favorite recipe. |
-| POST   | /api/user/favorite | Add a recipe to the user's favorites. |
-| DELETE | /api/user/favorite/:recipeId | Remove a recipe from the user's favorites. |
+| /api/user/favorite | GET | Get a list of favorite recipes for the user. |
+| /api/user/favorite/:recipeId | GET | Get details of a specific favorite recipe. |
+| /api/user/favorite | POST | Add a recipe to the user's favorites. |
+| /api/user/favorite/:recipeId | DELETE | Remove a recipe from the user's favorites. |
 
 ## CREDIT
 [Muhammad Fauzi Nauval Abrari](https://github.com/FauziNauvalAbrari)
